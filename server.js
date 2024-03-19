@@ -25,7 +25,6 @@ app.get("/codeyourfuture", function (req, res) {
     res.send("Welcome to CodeYourFuture!");
 });
 
-// Add a route for /multiply
 app.get("/multiply", (req, res) => {
     let value1 = parseFloat(req.query.value1);
     let value2 = parseFloat(req.query.value2);
