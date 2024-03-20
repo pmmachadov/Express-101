@@ -26,8 +26,8 @@ app.get("/codeyourfuture", function (req, res) {
 });
 
 app.get("/multiply", (req, res) => {
-    let value1 = parseFloat(req.query.value1);
-    let value2 = parseFloat(req.query.value2);
+    let value1 = (req.query.value1);
+    let value2 = (req.query.value2);
 
     // Check if the values are numbers
     if (isNaN(value1) || isNaN(value2)) {
